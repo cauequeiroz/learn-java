@@ -22,5 +22,37 @@ class sandbox {
         // Char
         char letra = 'a';
         System.out.println(letra);
+
+        /*  Casting
+         * ---------------------------- */
+
+        double pi = 3.14;
+        int numero = (int) pi;
+        System.out.println(numero);
+        
+        /*  Condicionais
+         * ---------------------------- */
+
+        int age = 19;
+        boolean friend = false;
+
+        if ( age < 18 && !friend ) {
+            System.out.println("Não pode entrar.");
+        } else {
+            System.out.println("Pode entrar.");
+        }
+        
+        /*  Loops
+         * ----------------------------- */
+
+        int i = 0;
+        while( i < 10 ) {
+            System.out.println(i);
+            i = i + 1;
+        }
+
+        for (int b=0; b<10; b++) {
+            System.out.println("Olá.");
+        }
     }
 }
