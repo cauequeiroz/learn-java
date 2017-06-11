@@ -54,5 +54,17 @@ class sandbox {
         for (int b=0; b<10; b++) {
             System.out.println("Olá.");
         }
+
+        System.out.println("-----------------");
+
+        for (int c=0; c<20; c++) {
+            if ( c > 5 && c < 10 ) {
+                continue;
+            } 
+            System.out.println(c);
+            if ( c == 13 ) {
+                break;
+            }
+        }
     }
 }
